@@ -1,0 +1,227 @@
+*{margin:0;padding:0;}
+
+body{
+	font-family: "montserrat";
+	background-color: white;
+
+}
+
+.navbar {
+	background-color: white;
+}
+
+.navbar a {
+	font-family: 'Spectral', serif;
+	color:gray;
+	font-size: 21px;
+	text-decoration: none;
+}
+
+.container1{
+	text-align: center;
+	width: 80%;
+	background-color: white;
+}
+
+#sobremi {
+	margin-top: 0;
+	color: grey;
+	font-family: "montserrat";
+}
+
+
+.avatar {
+	margin-top: 5%;
+	border-radius: 100%;
+	padding: 2%;
+}
+
+.titulos{
+	font-family: "Spectral";
+	font-size: 48px;
+	font-style: italic;
+	color:black;
+}
+
+#sobremi p {
+	margin-top: 1%;
+	margin-bottom: 10%;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+
+#portfolio {
+	background-color: #FFF8F9;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.middle{
+	font-size: 60px;
+	color:black;
+	transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.middle:hover .img-responsive{
+	opacity: 100%;
+	transition: 0.5s all ease;
+	color: pink;
+}
+
+.container-img{
+	margin-top: 2%;
+	
+}
+
+.container-img:hover .img-responsive{
+  opacity: 0.3;
+}
+
+.container-img:hover .middle {
+  opacity: 1;
+}
+
+#skills{
+width: 80%;
+align-content: center; 
+	padding-top: 80px;
+	padding-bottom: 50px;
+	font-family: "montserrat";
+}
+
+.icons {
+	width: 50%;
+align-content: center; 
+}
+
+
+.fa-adobe{
+	font-size: 60px;
+	margin: 10px;
+	color:pink;
+	transition: 0.5s all ease;
+}
+
+.fa-html5{
+	font-size: 60px;
+	margin: 10px;
+	color:pink;
+	transition: 0.5s all ease;
+}
+
+
+.fa-css3-alt{
+	font-size: 60px;
+	margin: 10px;
+	color:pink;
+	transition: 0.5s all ease;
+}
+.fa-js{
+	font-size: 60px;
+	margin: 10px;
+	color:pink;
+	transition: 0.5s all ease;
+}
+
+.fa-html5:hover{
+    transform:rotate(360deg) scale(1.25,1.25);
+}
+
+.fa-css3-alt:hover{
+    transform:rotate(360deg) scale(1.25,1.25);}
+
+.fa-js:hover{
+    transform:rotate(360deg) scale(1.25,1.25);
+}
+
+#contacto{
+	padding-top: 80px;
+
+}
+
+#contacto h2{
+	font-family: "montserrat";
+	color:black;
+}
+
+#contacto .btn{
+	background-color: lightgrey;
+}
+
+#contacto .btn:hover{
+	background-color: pink;
+}
+
+
+footer{
+	margin-top: 80px;
+	background-color:black;
+	color:white;
+	padding: 2%;
+	font-family: "montserrat";
+	
+}
+
+.social{
+	font-size: 18px;
+	margin-bottom: 5px;	
+}
+
+.redes{
+	font-size: 26px;
+}
+.social a{
+	color: #6E6E6E;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+ .social a:hover{
+	color: #f1b2bb;
+}
+
+.fa-arrow-circle-up{
+	font-size: 56px;
+	color:pink;
+	transition: transform .2s; 
+}
+
+.fa-arrow-circle-up:hover{
+	transform: scale(1.5);
+}
+
+.slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
